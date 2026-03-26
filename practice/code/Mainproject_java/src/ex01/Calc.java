@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * Клас для обчислення кінетичної енергії.
  * Зберігає та відновлює результати обчислень.
- * @author Студент
+ * @author Пилипенко
  * @version 3.0
  */
 public class Calc implements Serializable {
