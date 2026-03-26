@@ -7,7 +7,7 @@ import ex02.ViewResult;
 /**
  * Concrete Product.
  * Вивід у вигляді таблиці.
- * @author Студент
+ * @author Пилипенко
  * @version 1.0
  */
 public class ViewTable extends ViewResult {
