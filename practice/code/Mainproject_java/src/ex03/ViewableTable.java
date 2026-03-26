@@ -4,7 +4,7 @@ import ex02.ViewableResult;
 import ex02.View;
 
 /**
- * Concrete Creator (шаблон проектування Factory Method).
+ * Concrete Creator.
  * Оголошує метод, що "фабрикує" об'єкти.
  * @author Студент
  * @version 1.0
