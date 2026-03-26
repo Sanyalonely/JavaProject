@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * Обчислення та відображення результатів.
  * Містить реалізацію статичного методу main().
- * @author xone
+ * @author Пилипенко
  * @version 1.0
  * @see Main#main
  */
