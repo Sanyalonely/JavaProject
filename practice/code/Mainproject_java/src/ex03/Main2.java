@@ -5,7 +5,7 @@ import ex02.Main1;
 
 /**
  * Обчислення та відображення результатів у вигляді таблиці.
- * @author Студент
+ * @author Пилипенко
  * @version 4.0
  */
 public class Main2 extends Main1 {
