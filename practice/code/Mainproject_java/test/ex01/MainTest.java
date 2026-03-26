@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 /**
  * Виконує тестування розроблених класів[cite: 505].
- * @author xone
+ * @author Пилипенко
  * @version 1.0
  */
 public class MainTest {
@@ -14,7 +14,6 @@ public class MainTest {
     @Test
     public void testCalc() {
         Calc calc = new Calc();
-        // m=2, v=3 => E=9 => bin="1001"
         calc.init(2.0, 3.0);
         assertEquals("1001", calc.getResult().getBinaryEnergy());
     }
@@ -24,14 +23,14 @@ public class MainTest {
     public void testRestore() {
         Calc calc = new Calc();
         double mass = 10.0;
-        double vel = 2.0; // E=20 => bin="10100"
+        double vel = 2.0; 
         
         calc.init(mass, vel);
         String expectedBin = calc.getResult().getBinaryEnergy();
 
         try {
             calc.save();
-            calc.init(0, 0); // Скидаємо дані
+            calc.init(0, 0); 
             calc.restore();
         } catch (Exception e) {
             fail(e.getMessage());
@@ -39,7 +38,6 @@ public class MainTest {
 
         assertEquals(expectedBin, calc.getResult().getBinaryEnergy());
         assertEquals(mass, calc.getResult().getMass(), 1e-10);
-        // Velocity має бути 0.0 після десеріалізації, бо вона transient [cite: 41, 103]
         assertEquals(0.0, calc.getResult().getVelocity(), 1e-10);
     }
 }
