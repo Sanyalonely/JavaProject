@@ -5,7 +5,7 @@ import ex01.KineticEnergy;
 import ex02.ViewResult;
 
 /**
- * Concrete Product (шаблон проектування Factory Method).
+ * Concrete Product.
  * Вивід у вигляді таблиці.
  * @author Студент
  * @version 1.0
@@ -65,7 +65,7 @@ public class ViewTable extends ViewResult {
         fmt.close();
     }
 
-    /** * ПЕРЕВАНТАЖЕННЯ (Overloading) методу.
+    /** * ПЕРЕВАНТАЖЕННЯ методу.
      * @param width нова ширина таблиці
      */
     public final void viewInit(int width) {
@@ -73,7 +73,7 @@ public class ViewTable extends ViewResult {
         viewInit();
     }
 
-    /** * ПЕРЕВИЗНАЧЕННЯ (Overriding) методу суперкласу.
+    /** * ПЕРЕВИЗНАЧЕННЯ методу суперкласу.
      */
     @Override
     public void viewInit() {
