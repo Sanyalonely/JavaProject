@@ -6,8 +6,7 @@ import ex02.View;
 /**
  * Concrete Creator (шаблон проектування Factory Method).
  * Оголошує метод, що "фабрикує" об'єкти.
- * @author Студент
- * @version 1.0
+ * @author Пилипенко
  */
 public class ViewableTable extends ViewableResult {
     

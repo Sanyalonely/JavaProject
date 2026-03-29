@@ -7,9 +7,7 @@ import java.io.InputStreamReader;
 /**
  * Обчислення та відображення результатів.
  * Містить реалізацію статичного методу main().
- * @author xone
- * @version 1.0
- * @see Main#main
+ * @author Пилипенко
  */
 public class Main {
     
@@ -43,7 +41,6 @@ public class Main {
                     break;
                 case 'g':
                     System.out.println("Random generation.");
-                    // Генеруємо випадкові значення для маси та швидкості
                     double mass = Math.random() * 100.0;
                     double velocity = Math.random() * 30.0;
                     calc.init(mass, velocity);

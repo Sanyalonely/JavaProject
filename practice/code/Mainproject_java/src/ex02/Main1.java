@@ -68,7 +68,6 @@ public class Main1 {
     }
 
     public static void main(String[] args) {
-        // Використовуємо фабрику для створення відображення
         Main1 mainObj = new Main1(new ViewableResult().getView());
         mainObj.menu();
     }

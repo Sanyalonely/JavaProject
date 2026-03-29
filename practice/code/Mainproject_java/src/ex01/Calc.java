@@ -10,8 +10,7 @@ import java.io.Serializable;
 /**
  * Клас для обчислення кінетичної енергії.
  * Зберігає та відновлює результати обчислень.
- * @author Студент
- * @version 3.0
+ * @author Пилипенко
  */
 public class Calc implements Serializable {
     /** Автоматично згенерована константа для серіалізації */
@@ -39,8 +38,8 @@ public class Calc implements Serializable {
 
     /**
      * Обчислює кінетичну енергію та зберігає параметри в об'єкті.
-     * @param mass маса тіла
-     * @param velocity швидкість тіла
+     * @param mass 
+     * @param velocity 
      */
     public void init(double mass, double velocity) {
         double energy = (mass * velocity * velocity) / 2.0;

@@ -6,8 +6,7 @@ import java.io.Serializable;
  * Клас для зберігання параметрів фізичного тіла та результатів обчислень.
  * Знаходить двійкове уявлення цілої частини значення кінетичної енергії.
  * Реалізує інтерфейс Serializable для можливості збереження стану об'єкта.
- * * @author Студент
- * @version 3.0
+ * * @author Пилипенко
  */
 public class KineticEnergy implements Serializable {
     /** Автоматично згенерована константа для серіалізації */
@@ -29,9 +28,9 @@ public class KineticEnergy implements Serializable {
 
     /**
      * Ініціалізує поля заданими значеннями.
-     * * @param mass значення маси
-     * @param velocity значення швидкості
-     * @param energy значення енергії
+     * * @param mass 
+     * @param velocity 
+     * @param energy 
      */
     public KineticEnergy(double mass, double velocity, double energy) {
         this.mass = mass;

@@ -33,9 +33,9 @@ public class ViewResult implements View {
 
     @Override
     public void viewInit() {
-        double m = 5.0; // Базова маса
+        double m = 5.0; 
         for (KineticEnergy item : items) {
-            double v = Math.random() * 100.0; // Випадкова швидкість
+            double v = Math.random() * 100.0;
             double energy = (m * v * v) / 2.0;
             item.setMass(m);
             item.setVelocity(v);

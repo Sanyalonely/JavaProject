@@ -7,8 +7,7 @@ import ex02.ViewResult;
 /**
  * Concrete Product (шаблон проектування Factory Method).
  * Вивід у вигляді таблиці.
- * @author Студент
- * @version 1.0
+ * @author Пилипенко
  */
 public class ViewTable extends ViewResult {
     /** Визначає ширину таблиці за замовчуванням */
@@ -73,7 +72,7 @@ public class ViewTable extends ViewResult {
         viewInit();
     }
 
-    /** * ПЕРЕВИЗНАЧЕННЯ (Overriding) методу суперкласу.
+    /** * Перевизначення методу суперкласу.
      */
     @Override
     public void viewInit() {

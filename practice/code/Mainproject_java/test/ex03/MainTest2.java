@@ -6,8 +6,7 @@ import java.io.IOException;
 
 /**
  * Виконує тестування розроблених класів.
- * @author Студент
- * @version 4.0
+ * @author Пилипенко
  */
 public class MainTest2 {
 
