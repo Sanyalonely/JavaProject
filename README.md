@@ -79,3 +79,13 @@
 
 **Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image4.png
 
+6. **День 6:**
+
+* Продемонстрував можливість паралельної обробки елементів колекції.
+
+* Управління чергою завдань (команд) реалізувати за допомогою шаблону Worker Thread.
+
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex05
+
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image5.png
+
