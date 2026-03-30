@@ -22,20 +22,24 @@ public class ExecuteConsoleCommand implements ConsoleCommand {
     public void execute() {
         CommandQueue queue1 = new CommandQueue();
         CommandQueue queue2 = new CommandQueue();
+        CommandQueue queue3 = new CommandQueue(); // Додаємо третю чергу
 
         MaxCommand maxCmd = new MaxCommand((ViewResult) view);
         AvgCommand avgCmd = new AvgCommand((ViewResult) view);
+        MinCommand minCmd = new MinCommand((ViewResult) view); // Створюємо команду мін
 
-        System.out.println("Executing threads in parallel...");
+        System.out.println("Executing threads in parallel (Min, Max, Avg)...");
         queue1.put(maxCmd);
         queue2.put(avgCmd);
+        queue3.put(minCmd); // Кладемо в чергу
 
         try {
-            while (maxCmd.running() || avgCmd.running()) {
+            while (maxCmd.running() || avgCmd.running() || minCmd.running()) {
                 TimeUnit.MILLISECONDS.sleep(100);
             }
             queue1.shutdown();
             queue2.shutdown();
+            queue3.shutdown();
             TimeUnit.SECONDS.sleep(1);
         } catch (InterruptedException e) {
             System.err.println(e);
