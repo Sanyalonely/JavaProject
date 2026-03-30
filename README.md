@@ -10,13 +10,13 @@
 * Підгрупа: 2
 
 ### Зміст практичних робіт
-1. День 1: Створення репозиторію та запуск першого завдання "Hello World".
+1. **День 1:** Створення репозиторію та запуск першого завдання "Hello World".
+
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/blob/main/code/Main.java
    
-   Посилання на код: https://github.com/Sanyalonely/JavaProject/blob/main/code/Main.java
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/screenshots/image.png
    
-   Скріншот роботи програми: https://github.com/Sanyalonely/JavaProject/blob/main/screenshots/image.png
-   
-2. День 2:
+2. **День 2:**
    
 * Розроблений клас, що серіалізується, для зберігання параметрів і результатів обчислень;
 
@@ -29,11 +29,11 @@
 * Виконато індивідуальне завдання під варіантом 13: Знайти двійкове уявлення цілої частини значення кінетичної енергії
 фізичного тіла при заданих значеннях маси та швидкості.
 
-Посилання на код: https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex01
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex01
    
-Скріншот роботи програми: https://github.com/Sanyalonely/JavaProject/blob/main/screenshots/image1.png
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/screenshots/image1.png
 
-3. День 3:
+3.**День 3:**
    
 * Забезпечено розміщення результатів обчислень у колекції з можливістю збереження та відновлення даних.
 
@@ -45,11 +45,11 @@
 
 * Розроблено та реалізовано інтерфейс для "фабрикуючого" методу (Viewable), що забезпечує створення об'єктів відображення.
 
-Посилання на код: https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex02
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex02
 
-Скріншот роботи програми: https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image2.png
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image2.png
 
-4. День 4
+4. **День 4:**
 
 * Розширено ієрархію похідними класами (ViewTable), які реалізують методи для представлення результатів у вигляді текстової таблиці. Забезпечено можливість визначення параметрів відображення таблиці користувачем.
 
@@ -61,6 +61,21 @@
   
 * Використано коментарі для автоматичної генерації документації засобами javadoc.
 
-Посилання на код: https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex03
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex03
 
-Скріншот роботи програми: https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image3.png
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image3.png
+
+5. **День 5:**
+   
+* Реалізував можливість скасування (undo) операцій (команд).
+  
+* Продемонстрував поняття "макрокоманда"
+  
+* Забезпечив діалоговий інтерфейс із користувачем.
+  
+* Розробив клас для тестування функціональності програми.
+
+**Посилання на код:** https://github.com/Sanyalonely/JavaProject/tree/main/practice/code/Mainproject_java/src/ex04
+
+**Скріншот роботи програми:** https://github.com/Sanyalonely/JavaProject/blob/main/practice/screenshots/image4.png
+

@@ -23,7 +23,7 @@ public class ChangeConsoleCommand implements ConsoleCommand {
 
     @Override
     public String toString() {
-        return "'c'change";
+        return "'c' change";
     }
 
     @Override
