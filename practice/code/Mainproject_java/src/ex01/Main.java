@@ -13,8 +13,7 @@ public class Main {
     
     /** Об'єкт класу Calc. Вирішує задачу індивідуального завдання. */
     private Calc calc = new Calc();
-
-    /** Відображає меню користувача. */
+    
     private void menu() {
         String s = null;
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -69,11 +68,6 @@ public class Main {
             }
         } while (s.charAt(0) != 'q');
     }
-
-    /**
-     * Виконується при запуску програми.
-     * @param args параметри запуску програми.
-     */
     public static void main(String[] args) {
         Main main = new Main();
         main.menu();
