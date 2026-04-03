@@ -19,7 +19,6 @@ public class Menu implements Command {
         return command;
     }
 
-    @Override
     public void execute() {
         String s = null;
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -62,8 +61,7 @@ public class Menu implements Command {
             }
         }
     }
-
-    @Override
+    
     public void undo() {
         if (history.isEmpty()) {
             System.out.println("Nothing to undo.");
