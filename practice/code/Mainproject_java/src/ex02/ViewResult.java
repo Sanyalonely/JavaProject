@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import ex01.KineticEnergy;
 
 /**
- * Concrete Product.
  * Обчислення функції, збереження та відображення результатів у колекції.
  */
 public class ViewResult implements View {
@@ -26,7 +25,7 @@ public class ViewResult implements View {
         }
     }
 
-    /** @return поточна колекція об'єктів */
+    /** поточна колекція об'єктів */
     public ArrayList<KineticEnergy> getItems() {
         return items;
     }
