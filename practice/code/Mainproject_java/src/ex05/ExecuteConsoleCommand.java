@@ -14,24 +14,23 @@ public class ExecuteConsoleCommand implements ConsoleCommand {
 
     public ExecuteConsoleCommand(View view) { this.view = view; }
 
-    @Override public char getKey() { return 'e'; }
-    @Override public String toString() { return "'e' execute threads"; }
-    @Override public void undo() {}
+    public char getKey() { return 'e'; }
+    public String toString() { return "'e' execute threads"; }
+    public void undo() {}
 
-    @Override
     public void execute() {
         CommandQueue queue1 = new CommandQueue();
         CommandQueue queue2 = new CommandQueue();
-        CommandQueue queue3 = new CommandQueue(); // Додаємо третю чергу
+        CommandQueue queue3 = new CommandQueue();
 
         MaxCommand maxCmd = new MaxCommand((ViewResult) view);
         AvgCommand avgCmd = new AvgCommand((ViewResult) view);
-        MinCommand minCmd = new MinCommand((ViewResult) view); // Створюємо команду мін
+        MinCommand minCmd = new MinCommand((ViewResult) view);
 
         System.out.println("Executing threads in parallel (Min, Max, Avg)...");
         queue1.put(maxCmd);
         queue2.put(avgCmd);
-        queue3.put(minCmd); // Кладемо в чергу
+        queue3.put(minCmd);
 
         try {
             while (maxCmd.running() || avgCmd.running() || minCmd.running()) {
