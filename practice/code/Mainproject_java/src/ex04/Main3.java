@@ -7,7 +7,6 @@ package ex04;
 public class Main3 {
     /**
      * Метод запуску програми.
-     * @param args аргументи командного рядка
      */
     public static void main(String[] args) {
         Application app = Application.getInstance();
