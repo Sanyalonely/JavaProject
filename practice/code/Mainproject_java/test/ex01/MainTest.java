@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Виконує тестування розроблених класів[cite: 505].
+ * Виконує тестування розроблених класів.
  * @author Пилипенко
  */
 public class MainTest {
