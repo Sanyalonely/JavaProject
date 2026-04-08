@@ -8,7 +8,7 @@ import ex04.GenerateConsoleCommand;
 import ex04.ViewConsoleCommand;
 
 /**
- * Головний клас для запуску 6-ї лабораторної роботи.
+ * Головний клас для запуску 5 завдання.
  * @author Пилипенко
  */
 public class Main4 {
